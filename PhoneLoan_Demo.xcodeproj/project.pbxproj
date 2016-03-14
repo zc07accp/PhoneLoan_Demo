@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B96EA9E51C96550700C813C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96EA9E41C96550700C813C0 /* main.m */; };
+		B96EA9E81C96550700C813C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96EA9E71C96550700C813C0 /* AppDelegate.m */; };
+		B96EA9EB1C96550700C813C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96EA9EA1C96550700C813C0 /* ViewController.m */; };
+		B96EA9EE1C96550700C813C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96EA9EC1C96550700C813C0 /* Main.storyboard */; };
+		B96EA9F11C96550700C813C0 /* PhoneLoan_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B96EA9EF1C96550700C813C0 /* PhoneLoan_Demo.xcdatamodeld */; };
+		B96EA9F31C96550700C813C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96EA9F21C96550700C813C0 /* Assets.xcassets */; };
+		B96EA9F61C96550700C813C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96EA9F41C96550700C813C0 /* LaunchScreen.storyboard */; };
+		B96EAA011C96550700C813C0 /* PhoneLoan_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96EAA001C96550700C813C0 /* PhoneLoan_DemoTests.m */; };
+		B96EAA0C1C96550700C813C0 /* PhoneLoan_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96EAA0B1C96550700C813C0 /* PhoneLoan_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96EA9FD1C96550700C813C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96EA9D81C96550700C813C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96EA9DF1C96550700C813C0;
+			remoteInfo = PhoneLoan_Demo;
+		};
+		B96EAA081C96550700C813C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96EA9D81C96550700C813C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96EA9DF1C96550700C813C0;
+			remoteInfo = PhoneLoan_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B96EA9E01C96550700C813C0 /* PhoneLoan_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneLoan_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96EA9E41C96550700C813C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B96EA9E61C96550700C813C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B96EA9E71C96550700C813C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B96EA9E91C96550700C813C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B96EA9EA1C96550700C813C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B96EA9ED1C96550700C813C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B96EA9F01C96550700C813C0 /* PhoneLoan_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneLoan_Demo.xcdatamodel; sourceTree = "<group>"; };
+		B96EA9F21C96550700C813C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96EA9F51C96550700C813C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B96EA9F71C96550700C813C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96EA9FC1C96550700C813C0 /* PhoneLoan_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneLoan_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96EAA001C96550700C813C0 /* PhoneLoan_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneLoan_DemoTests.m; sourceTree = "<group>"; };
+		B96EAA021C96550700C813C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96EAA071C96550700C813C0 /* PhoneLoan_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneLoan_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96EAA0B1C96550700C813C0 /* PhoneLoan_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneLoan_DemoUITests.m; sourceTree = "<group>"; };
+		B96EAA0D1C96550700C813C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96EA9DD1C96550700C813C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EA9F91C96550700C813C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EAA041C96550700C813C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B96EA9D71C96550700C813C0 = {
+			isa = PBXGroup;
+			children = (
+				B96EA9E21C96550700C813C0 /* PhoneLoan_Demo */,
+				B96EA9FF1C96550700C813C0 /* PhoneLoan_DemoTests */,
+				B96EAA0A1C96550700C813C0 /* PhoneLoan_DemoUITests */,
+				B96EA9E11C96550700C813C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96EA9E11C96550700C813C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96EA9E01C96550700C813C0 /* PhoneLoan_Demo.app */,
+				B96EA9FC1C96550700C813C0 /* PhoneLoan_DemoTests.xctest */,
+				B96EAA071C96550700C813C0 /* PhoneLoan_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96EA9E21C96550700C813C0 /* PhoneLoan_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B96EA9E61C96550700C813C0 /* AppDelegate.h */,
+				B96EA9E71C96550700C813C0 /* AppDelegate.m */,
+				B96EA9E91C96550700C813C0 /* ViewController.h */,
+				B96EA9EA1C96550700C813C0 /* ViewController.m */,
+				B96EA9EC1C96550700C813C0 /* Main.storyboard */,
+				B96EA9F21C96550700C813C0 /* Assets.xcassets */,
+				B96EA9F41C96550700C813C0 /* LaunchScreen.storyboard */,
+				B96EA9F71C96550700C813C0 /* Info.plist */,
+				B96EA9EF1C96550700C813C0 /* PhoneLoan_Demo.xcdatamodeld */,
+				B96EA9E31C96550700C813C0 /* Supporting Files */,
+			);
+			path = PhoneLoan_Demo;
+			sourceTree = "<group>";
+		};
+		B96EA9E31C96550700C813C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96EA9E41C96550700C813C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B96EA9FF1C96550700C813C0 /* PhoneLoan_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B96EAA001C96550700C813C0 /* PhoneLoan_DemoTests.m */,
+				B96EAA021C96550700C813C0 /* Info.plist */,
+			);
+			path = PhoneLoan_DemoTests;
+			sourceTree = "<group>";
+		};
+		B96EAA0A1C96550700C813C0 /* PhoneLoan_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96EAA0B1C96550700C813C0 /* PhoneLoan_DemoUITests.m */,
+				B96EAA0D1C96550700C813C0 /* Info.plist */,
+			);
+			path = PhoneLoan_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96EA9DF1C96550700C813C0 /* PhoneLoan_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96EAA101C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_Demo" */;
+			buildPhases = (
+				B96EA9DC1C96550700C813C0 /* Sources */,
+				B96EA9DD1C96550700C813C0 /* Frameworks */,
+				B96EA9DE1C96550700C813C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneLoan_Demo;
+			productName = PhoneLoan_Demo;
+			productReference = B96EA9E01C96550700C813C0 /* PhoneLoan_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96EA9FB1C96550700C813C0 /* PhoneLoan_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96EAA131C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_DemoTests" */;
+			buildPhases = (
+				B96EA9F81C96550700C813C0 /* Sources */,
+				B96EA9F91C96550700C813C0 /* Frameworks */,
+				B96EA9FA1C96550700C813C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96EA9FE1C96550700C813C0 /* PBXTargetDependency */,
+			);
+			name = PhoneLoan_DemoTests;
+			productName = PhoneLoan_DemoTests;
+			productReference = B96EA9FC1C96550700C813C0 /* PhoneLoan_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96EAA061C96550700C813C0 /* PhoneLoan_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96EAA161C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_DemoUITests" */;
+			buildPhases = (
+				B96EAA031C96550700C813C0 /* Sources */,
+				B96EAA041C96550700C813C0 /* Frameworks */,
+				B96EAA051C96550700C813C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96EAA091C96550700C813C0 /* PBXTargetDependency */,
+			);
+			name = PhoneLoan_DemoUITests;
+			productName = PhoneLoan_DemoUITests;
+			productReference = B96EAA071C96550700C813C0 /* PhoneLoan_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96EA9D81C96550700C813C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PY;
+				TargetAttributes = {
+					B96EA9DF1C96550700C813C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B96EA9FB1C96550700C813C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B96EA9DF1C96550700C813C0;
+					};
+					B96EAA061C96550700C813C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B96EA9DF1C96550700C813C0;
+					};
+				};
+			};
+			buildConfigurationList = B96EA9DB1C96550700C813C0 /* Build configuration list for PBXProject "PhoneLoan_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96EA9D71C96550700C813C0;
+			productRefGroup = B96EA9E11C96550700C813C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96EA9DF1C96550700C813C0 /* PhoneLoan_Demo */,
+				B96EA9FB1C96550700C813C0 /* PhoneLoan_DemoTests */,
+				B96EAA061C96550700C813C0 /* PhoneLoan_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96EA9DE1C96550700C813C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96EA9F61C96550700C813C0 /* LaunchScreen.storyboard in Resources */,
+				B96EA9F31C96550700C813C0 /* Assets.xcassets in Resources */,
+				B96EA9EE1C96550700C813C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EA9FA1C96550700C813C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EAA051C96550700C813C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96EA9DC1C96550700C813C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96EA9EB1C96550700C813C0 /* ViewController.m in Sources */,
+				B96EA9E81C96550700C813C0 /* AppDelegate.m in Sources */,
+				B96EA9E51C96550700C813C0 /* main.m in Sources */,
+				B96EA9F11C96550700C813C0 /* PhoneLoan_Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EA9F81C96550700C813C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96EAA011C96550700C813C0 /* PhoneLoan_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96EAA031C96550700C813C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96EAA0C1C96550700C813C0 /* PhoneLoan_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96EA9FE1C96550700C813C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96EA9DF1C96550700C813C0 /* PhoneLoan_Demo */;
+			targetProxy = B96EA9FD1C96550700C813C0 /* PBXContainerItemProxy */;
+		};
+		B96EAA091C96550700C813C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96EA9DF1C96550700C813C0 /* PhoneLoan_Demo */;
+			targetProxy = B96EAA081C96550700C813C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B96EA9EC1C96550700C813C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96EA9ED1C96550700C813C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B96EA9F41C96550700C813C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96EA9F51C96550700C813C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96EAA0E1C96550700C813C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B96EAA0F1C96550700C813C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96EAA111C96550700C813C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneLoan_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B96EAA121C96550700C813C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneLoan_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B96EAA141C96550700C813C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneLoan_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneLoan_Demo.app/PhoneLoan_Demo";
+			};
+			name = Debug;
+		};
+		B96EAA151C96550700C813C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneLoan_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneLoan_Demo.app/PhoneLoan_Demo";
+			};
+			name = Release;
+		};
+		B96EAA171C96550700C813C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneLoan_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneLoan_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B96EAA181C96550700C813C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneLoan_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PY.PhoneLoan-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneLoan_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96EA9DB1C96550700C813C0 /* Build configuration list for PBXProject "PhoneLoan_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96EAA0E1C96550700C813C0 /* Debug */,
+				B96EAA0F1C96550700C813C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96EAA101C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96EAA111C96550700C813C0 /* Debug */,
+				B96EAA121C96550700C813C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96EAA131C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96EAA141C96550700C813C0 /* Debug */,
+				B96EAA151C96550700C813C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96EAA161C96550700C813C0 /* Build configuration list for PBXNativeTarget "PhoneLoan_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96EAA171C96550700C813C0 /* Debug */,
+				B96EAA181C96550700C813C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B96EA9EF1C96550700C813C0 /* PhoneLoan_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B96EA9F01C96550700C813C0 /* PhoneLoan_Demo.xcdatamodel */,
+			);
+			currentVersion = B96EA9F01C96550700C813C0 /* PhoneLoan_Demo.xcdatamodel */;
+			path = PhoneLoan_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B96EA9D81C96550700C813C0 /* Project object */;
+}
