@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeChatViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mm-Hi-cIN">
+                    <rect key="frame" x="150" y="150" width="300" height="300"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wechat_logo" translatesAutoresizingMaskIntoConstraints="NO" id="YFZ-8O-zlP" userLabel="Logo">
+                            <rect key="frame" x="45" y="40" width="46" height="47"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="关注手机贷微信" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFj-Jf-yC7">
+                            <rect key="frame" x="109" y="40" width="119" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="微信号:sfdfdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYh-N2-Tiw">
+                            <rect key="frame" x="118" y="69" width="101" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sL3-gr-RYi">
+                            <rect key="frame" x="209" y="262" width="60" height="30"/>
+                            <color key="backgroundColor" red="0.15423880008183477" green="1" blue="0.62796008212468291" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="保存图片">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="扫一扫二维码,这里有最新的活动咨询,等待您的参与." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXu-vc-2il">
+                            <rect key="frame" x="45" y="98" width="213" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aga-D7-jul">
+                            <rect key="frame" x="24" y="262" width="75" height="30"/>
+                            <color key="backgroundColor" red="0.16558040160563881" green="1" blue="0.62067615981184865" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="复制微信号">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZf-gl-oLh">
+                            <rect key="frame" x="274" y="10" width="16" height="22"/>
+                            <state key="normal" image="closebtn"/>
+                            <connections>
+                                <action selector="cloeseView:" destination="-1" eventType="touchUpInside" id="a4t-1v-O6D"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twodcode_wechat" translatesAutoresizingMaskIntoConstraints="NO" id="ti1-TP-jOt">
+                            <rect key="frame" x="118" y="156" width="80" height="75"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="heW-Kn-snG"/>
+                        <constraint firstAttribute="width" constant="300" id="rup-bA-07V"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="0.29723515070921985" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2mm-Hi-cIN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hL8-lz-2md"/>
+                <constraint firstItem="2mm-Hi-cIN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zlh-Hs-Mc5"/>
+            </constraints>
+            <point key="canvasLocation" x="109" y="217"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closebtn" width="16" height="16"/>
+        <image name="twodcode_wechat" width="170" height="170"/>
+        <image name="wechat_logo" width="42" height="42"/>
+    </resources>
+</document>

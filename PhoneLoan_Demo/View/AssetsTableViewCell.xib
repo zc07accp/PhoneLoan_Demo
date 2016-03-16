@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="96" id="KGk-i7-Jjw" customClass="AssetsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="StG-Pq-XPv">
+                        <rect key="frame" x="146" y="30" width="61" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6z-d3-Acg">
+                                <rect key="frame" x="0.0" y="0.0" width="61" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.82529443502426147" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="financial_detail" translatesAutoresizingMaskIntoConstraints="NO" id="Ebt-I5-dNd">
+                        <rect key="frame" x="328" y="5" width="19" height="19"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总资产(元)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="633-KR-hOr">
+                        <rect key="frame" x="136" y="5" width="79.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="StG-Pq-XPv" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="FWk-3D-ffK"/>
+                    <constraint firstItem="633-KR-hOr" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Hxa-as-wj0"/>
+                    <constraint firstAttribute="bottom" secondItem="StG-Pq-XPv" secondAttribute="bottom" constant="5" id="LZP-UR-r53"/>
+                    <constraint firstItem="Ebt-I5-dNd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="iF2-A4-btT"/>
+                    <constraint firstItem="633-KR-hOr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="oT1-tP-UhT"/>
+                    <constraint firstAttribute="trailing" secondItem="Ebt-I5-dNd" secondAttribute="trailing" constant="5" id="tXP-4j-e6V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="overallBalanceLabel" destination="F6z-d3-Acg" id="DmW-YV-IhZ"/>
+            </connections>
+            <point key="canvasLocation" x="365" y="363"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="financial_detail" width="19" height="19"/>
+    </resources>
+</document>
